@@ -4,29 +4,31 @@ const boxToAddTasks = document.querySelector("#addingtaskbox")
 
 const taskDisplay = document.querySelector("#displayingtasks")
 
-const addButton = document.querySelector("add")
+const addButton = document.querySelector("#add")
+
+const displayDiv = document.querySelector("#displayingtasks");
 
 
 
 // adding event listener when enter button is pressed
-addButton.addEventListener('click', event {
-  {
-    //array of task to be displayed later
-    const taskArr = [];
+addButton.addEventListener("click", (event) =>{
+
+  //array of task to be displayed later
+  const taskArr = [];
     //task is saved
     const taskInput = boxToAddTasks.value
     
     taskArr.push(taskInput);
-
-    taskArr.forEach(task => `<div id="displayingtasks">
-  <p>${taskArr}</p>
-    </div>`)
-    
   
-
+    for(let i = 0; i<taskArr.length; i++){
+     displayDiv.innerHTML += taskArr[i]
+     
+    }
+      
+      
 
     console.log(taskArr)
     return taskArr
-    
-  }
-} )
+  
+});
+

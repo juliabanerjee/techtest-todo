@@ -56,3 +56,6 @@ body #mainsection #addingtaskbox :-ms-input-placeholder {
 body h4 {
   color: #FFFFFF;
 }
+body #displayingtasks {
+  color: white;
+}
