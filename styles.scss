@@ -35,7 +35,8 @@ button{
   }
 
   #mainsection {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     h1 {
       color: $fourthcolor;
@@ -45,17 +46,23 @@ button{
       color: $thirdcolor;
     }
 
-input{
+
+#addingtaskbox{
   width: 90vw;
   height: 60px;
   background-color: $firstcolor;
   border: 1px $thirdcolor dashed;
+  color: $fourthcolor;
   
 
     :-ms-input-placeholder {
       color: $thirdcolor;
      
     }
+
   }
+  }
+  h4{
+    color: $fourthcolor;
   }
 }

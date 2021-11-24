@@ -33,7 +33,8 @@ body nav button {
   border-radius: 10px;
 }
 body #mainsection {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 body #mainsection h1 {
@@ -42,12 +43,16 @@ body #mainsection h1 {
 body #mainsection p {
   color: #6C6A7C;
 }
-body #mainsection input {
+body #mainsection #addingtaskbox {
   width: 90vw;
   height: 60px;
   background-color: #232229;
   border: 1px #6C6A7C dashed;
+  color: #FFFFFF;
 }
-body #mainsection input :-ms-input-placeholder {
+body #mainsection #addingtaskbox :-ms-input-placeholder {
   color: #6C6A7C;
+}
+body h4 {
+  color: #FFFFFF;
 }
