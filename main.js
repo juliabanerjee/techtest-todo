@@ -8,6 +8,8 @@ const addButton = document.querySelector("#add")
 
 const displayDiv = document.querySelector("#displayingtasks");
 
+const tasks = document.querySelector(".task")
+
 
 
 // adding event listener when enter button is pressed
@@ -21,7 +23,7 @@ addButton.addEventListener("click", (event) =>{
     taskArr.push(taskInput);
   
     for(let i = 0; i<taskArr.length; i++){
-     displayDiv.innerHTML += taskArr[i]
+     displayDiv.innerHTML = taskArr[i]
      
     }
       
