@@ -1,0 +1,61 @@
+@import "./assets/styles/_variables";
+@import "./assets/styles/_buttons";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $primaryfont;
+
+}
+
+body {
+
+  background-color: $secondcolor;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+
+    ul {
+      li {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-size: 24px;
+      }
+    }
+button{
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+  }
+
+  #mainsection {
+    display: block;
+    justify-content: center;
+    h1 {
+      color: $fourthcolor;
+    }
+
+    p {
+      color: $thirdcolor;
+    }
+
+input{
+  width: 90vw;
+  height: 60px;
+  background-color: $firstcolor;
+  border: 1px $thirdcolor dashed;
+  
+
+    :-ms-input-placeholder {
+      color: $thirdcolor;
+     
+    }
+  }
+  }
+}

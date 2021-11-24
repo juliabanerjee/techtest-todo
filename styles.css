@@ -1,0 +1,53 @@
+button {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6B3838;
+}
+
+button:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background-color: #2B2A33;
+}
+body nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+body nav ul li {
+  list-style-type: none;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+body nav button {
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+}
+body #mainsection {
+  display: block;
+  justify-content: center;
+}
+body #mainsection h1 {
+  color: #FFFFFF;
+}
+body #mainsection p {
+  color: #6C6A7C;
+}
+body #mainsection input {
+  width: 90vw;
+  height: 60px;
+  background-color: #232229;
+  border: 1px #6C6A7C dashed;
+}
+body #mainsection input :-ms-input-placeholder {
+  color: #6C6A7C;
+}
